@@ -25,11 +25,14 @@
 
   <body>
     <!-- Header -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <nav
+      style="background: rgb(255, 255, 255) transparent;"
+      class="navbar navbar-expand-md navbar-light fixed-top"
+    >
       <div class="container d-flex justify-content-between">
         <a class="navbar-brand" href="#">Yizhi Zhang</a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler border-0"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -79,13 +82,10 @@
     </nav>
 
     <!-- Key Messages -->
-    <section
-      style="margin-top: 156px; margin-bottom: 100px;"
-      class="text-center"
-    >
-      <div class="container">
+    <section style="height: 100vh;" class="text-center bg-light">
+      <div class="container" style="padding-top: 35vh;">
         <h1>Hello World, I'm Yizhi.</h1>
-        <h2 style="margin-top: 10px; margin-bottom: 40px;">
+        <h2 style="margin-top: 20px; margin-bottom: 50px;">
           I develop web apps.
         </h2>
         <p class="lead text-muted">
@@ -96,8 +96,8 @@
     </section>
 
     <!-- key Skills -->
-    <hr id="keyskills" />
-    <div class="container text-center">
+    <hr id="keyskills" class="mt-0" />
+    <div style="min-height: 100vh;" class="container text-center">
       <p style="margin-top: 25px; margin-bottom: 0px;" class="lead">
         Key Skills
       </p>
@@ -138,7 +138,7 @@
 
     <!-- Portfolio -->
     <hr id="portfolio" />
-    <div class="container text-center">
+    <div style="min-height: 100vh;" class="container text-center">
       <p style="margin-top: 25px; margin-bottom: 0px;" class="lead">
         Portfolio
       </p>
@@ -313,15 +313,12 @@
     <!-- Contact -->
     <hr id="contact" class="mb-0" />
 
-    <div class="bg-light">
-      <div style="padding-bottom: 80px;" class="container text-center bg-light">
-        <p
-          style="padding-top: 25px; margin-bottom: 20px;"
-          class="lead bg-light"
-        >
+    <div style="min-height: 100vh;" class="bg-light">
+      <div class="container text-center">
+        <p style="padding-top: 22vh; padding-bottom: 3vh;" class="lead">
           Contact
         </p>
-        <div class="col-md card border-0 bg-light">
+        <div class="col-md card border-0">
           <div class="card-body">
             <h5 class="card-title">Email</h5>
             <p class="card-text">
@@ -329,7 +326,7 @@
             </p>
           </div>
         </div>
-        <div class="col-md card border-0 bg-light">
+        <div class="col-md card border-0">
           <div class="card-body">
             <h5 class="card-title">GitHub</h5>
             <p class="card-text">
@@ -337,7 +334,7 @@
             </p>
           </div>
         </div>
-        <div class="col-md card border-0 bg-light">
+        <div class="col-md card border-0">
           <div class="card-body">
             <h5 class="card-title">Resume</h5>
             <p class="card-text">

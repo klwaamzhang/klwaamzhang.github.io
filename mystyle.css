@@ -27,7 +27,7 @@
 .footerimg {
   margin: 0;
   padding: 0;
-  background: url("./images/canva-photo-editor.png") no-repeat center/cover;
+  background: url("./images/footer.png") no-repeat center/cover;
   width: 100%;
   min-height: 50vh;
 }

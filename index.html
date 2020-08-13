@@ -26,8 +26,8 @@
   <body>
     <!-- Header -->
     <nav
-      style="background: rgb(255, 255, 255) transparent;"
-      class="navbar navbar-expand-md navbar-light fixed-top"
+      style="height: 6vh;"
+      class="navbar navbar-expand-md navbar-light bg-light fixed-top"
     >
       <div class="container d-flex justify-content-between">
         <a class="navbar-brand" href="#">Yizhi Zhang</a>
@@ -96,13 +96,22 @@
     </section>
 
     <!-- key Skills -->
-    <hr id="keyskills" class="mt-0" />
-    <div style="min-height: 100vh;" class="container text-center">
-      <p style="margin-top: 25px; margin-bottom: 0px;" class="lead">
+    <hr id="keyskills" class="my-0" />
+    <div style="min-height: 94vh;" class="container text-center">
+      <p style="padding-top: 5vh; padding-bottom: 4vh;" class="lead">
         Key Skills
       </p>
       <div class="row">
-        <div class="col-md card border-0 my-3">
+        <div
+          style="padding-top: 5vh; padding-bottom: 5vh;"
+          class="col-md card border-0"
+        >
+          <img
+            style="height: 10vh;"
+            src="./images/front-end.svg"
+            class="card-img-top"
+            alt="front-end"
+          />
           <div class="card-body">
             <h5 class="card-title">Web Development Front-End</h5>
             <p class="card-text">
@@ -110,7 +119,16 @@
             </p>
           </div>
         </div>
-        <div class="col-md card border-0 my-3">
+        <div
+          style="padding-top: 5vh; padding-bottom: 5vh;"
+          class="col-md card border-0"
+        >
+          <img
+            style="height: 10vh;"
+            src="./images/backend.svg"
+            class="card-img-top"
+            alt="back-end"
+          />
           <div class="card-body">
             <h5 class="card-title">Web Development Back-End</h5>
             <p class="card-text">C#, Java, <br />NodeJS, Express, .NET</p>
@@ -118,13 +136,31 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md card border-0 my-3">
+        <div
+          style="padding-top: 5vh; padding-bottom: 5vh;"
+          class="col-md card border-0"
+        >
+          <img
+            style="height: 10vh;"
+            src="./images/database.svg"
+            class="card-img-top"
+            alt="database"
+          />
           <div class="card-body">
             <h5 class="card-title">Databases</h5>
             <p class="card-text">Oracle SQL, MySQL/MariaDB, <br />MongoDB</p>
           </div>
         </div>
-        <div class="col-md card border-0 my-3">
+        <div
+          style="padding-top: 5vh; padding-bottom: 5vh;"
+          class="col-md card border-0"
+        >
+          <img
+            style="height: 10vh;"
+            src="./images/config.svg"
+            class="card-img-top"
+            alt="tools"
+          />
           <div class="card-body">
             <h5 class="card-title">Programming Tools</h5>
             <p class="card-text">
@@ -137,16 +173,17 @@
     </div>
 
     <!-- Portfolio -->
-    <hr id="portfolio" />
-    <div style="min-height: 100vh;" class="container text-center">
-      <p style="margin-top: 25px; margin-bottom: 0px;" class="lead">
+    <hr id="portfolio" class="my-0" />
+    <div style="min-height: 94vh;" class="container text-center">
+      <p style="padding-top: 5vh; padding-bottom: 1vh;" class="lead">
         Portfolio
       </p>
 
-      <div class="row">
+      <div style="padding-top: 5vh; padding-bottom: 5vh;" class="row">
         <div
           id="carouselExampleFade"
-          class="carousel slide col-md border-0 m-5"
+          style="align-self: center;"
+          class="carousel slide col-md border-0 mx-5 align-middle"
           data-ride="carousel"
         >
           <ol class="carousel-indicators">
@@ -201,9 +238,9 @@
           </a>
         </div>
 
-        <div class="col-md card border-0 my-3 align-self-center text-left">
+        <div class="pt-3 col-md card border-0 align-self-center text-left">
           <h5 class="card-title px-5">Lite Scheduler</h5>
-          <p class="card-subtitle mb-2 text-muted px-5">
+          <p class="card-subtitle pb-2 text-muted px-5">
             A lite version of schedulerto schedule daily tasks for multiple
             types of users
           </p>
@@ -226,10 +263,11 @@
         </div>
       </div>
 
-      <div class="row">
+      <div style="padding-top: 5vh; padding-bottom: 5vh;" class="row">
         <div
           id="carouselExampleFade2"
-          class="carousel slide col-md border-0 m-5"
+          style="align-self: center;"
+          class="carousel slide col-md border-0 mx-5"
           data-ride="carousel"
         >
           <ol class="carousel-indicators">
@@ -284,7 +322,7 @@
           </a>
         </div>
 
-        <div class="col-md card border-0 my-3 align-self-center text-left">
+        <div class="pt-3 col-md card border-0 align-self-center text-left">
           <h5 class="card-title px-5">YizyWords</h5>
           <p class="card-subtitle mb-2 text-muted px-5">
             A web application to make notes for memorizing words or phrases
@@ -311,7 +349,7 @@
     </div>
 
     <!-- Contact -->
-    <hr id="contact" class="mb-0" />
+    <hr id="contact" class="my-0" />
 
     <div style="min-height: 100vh;" class="bg-light">
       <div class="container text-center">
